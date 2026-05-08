@@ -2,22 +2,12 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
+import type { Post, Heading } from "./types";
+
+export type { Post, Heading };
+export { formatDate } from "./types";
 
 const POSTS_DIR = path.join(process.cwd(), "content/posts");
-
-export interface Post {
-  slug: string;
-  title: string;
-  description: string;
-  date: string;
-  category: string;
-  tags: string[];
-  author: string;
-  readingTime: string;
-  content: string;
-  featured?: boolean;
-  image?: string;
-}
 
 export function getAllPosts(): Post[] {
   if (!fs.existsSync(POSTS_DIR)) return [];
@@ -43,7 +33,7 @@ export function getAllPosts(): Post[] {
         content,
         featured: data.featured ?? false,
         image: data.image ?? null,
-      };
+      } as Post;
     })
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
@@ -99,10 +89,23 @@ export function getAllTags(): string[] {
   return [...new Set(getAllPosts().flatMap((p) => p.tags))];
 }
 
-export function formatDate(date: string): string {
-  return new Date(date).toLocaleDateString("pt-BR", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
+export function extractHeadings(content: string): Heading[] {
+  const headingRegex = /^(#{2,3})\s+(.+)$/gm;
+  const headings: Heading[] = [];
+  let match;
+
+  while ((match = headingRegex.exec(content)) !== null) {
+    const level = match[1].length;
+    const text = match[2].trim();
+    const id = text
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")
+      .replace(/[^a-z0-9\s-]/g, "")
+      .replace(/\s+/g, "-")
+      .trim();
+    headings.push({ id, text, level });
+  }
+
+  return headings;
 }
