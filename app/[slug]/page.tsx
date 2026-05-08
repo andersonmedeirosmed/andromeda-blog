@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import {
   getAllPosts,
   getPostBySlug,
-  getRelatedPosts,
+  getPostsByCategory,
   formatDate,
   extractHeadings,
 } from "@/lib/posts";
@@ -71,7 +71,9 @@ export default async function ArticlePage({ params }: Props) {
   });
 
   const headings = extractHeadings(post.content);
-  const related = getRelatedPosts(slug, 3);
+  const related = getPostsByCategory(post.category)
+    .filter((p) => p.slug !== slug)
+    .slice(0, 3);
   const url = `${SITE_URL}/${slug}`;
 
   const articleSchema = {
@@ -231,12 +233,21 @@ export default async function ArticlePage({ params }: Props) {
               </a>
             </div>
 
-            {/* Related posts */}
+            {/* More from same category */}
             {related.length > 0 && (
-              <section className="mt-14">
-                <h2 className="text-xl font-semibold text-slate-900 mb-6">
-                  Artigos relacionados
-                </h2>
+              <section className="mt-14 pt-10 border-t border-slate-200">
+                <div className="flex items-center justify-between mb-6">
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    Mais em{" "}
+                    <span className="text-blue-600">{post.category}</span>
+                  </h2>
+                  <Link
+                    href={`/categoria/${post.category.toLowerCase()}`}
+                    className="text-sm text-blue-600 hover:underline"
+                  >
+                    Ver todos →
+                  </Link>
+                </div>
                 <div className="grid sm:grid-cols-3 gap-4">
                   {related.map((p) => (
                     <ArticleCard key={p.slug} post={p} />
