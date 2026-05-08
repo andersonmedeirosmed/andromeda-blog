@@ -45,7 +45,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.date,
       authors: [post.author],
       tags: post.tags,
-      images: post.image ? [{ url: `${SITE_URL}${post.image}` }] : undefined,
+      images: [
+        {
+          url: post.image
+            ? `${SITE_URL}${post.image}`
+            : `${SITE_URL}/og?title=${encodeURIComponent(post.title)}&category=${encodeURIComponent(post.category)}`,
+          width: 1200,
+          height: 630,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
