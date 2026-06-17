@@ -4,8 +4,6 @@ import CategoryFilter from "@/components/CategoryFilter";
 
 export default function HomePage() {
   const posts = getAllPosts();
-  const featured = posts.find((p) => p.featured) ?? posts[0];
-  const rest = posts.filter((p) => p.slug !== featured?.slug);
   const categories = getAllCategories();
 
   return (
@@ -60,19 +58,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Featured article */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 -mt-10 relative z-10 mb-12">
-        {featured && <ArticleCard post={featured} featured />}
-      </div>
-
       {/* Articles grid */}
-      <div id="artigos" className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
-        {rest.length > 0 && (
+      <div id="artigos" className="max-w-6xl mx-auto px-4 sm:px-6 pb-10 pt-10">
+        {posts.length > 0 && (
           <section>
             <h2 className="text-xl font-semibold text-slate-900 mb-5">
               Artigos recentes
             </h2>
-            <CategoryFilter posts={rest} categories={categories} />
+            <CategoryFilter posts={posts} categories={categories} />
           </section>
         )}
 
