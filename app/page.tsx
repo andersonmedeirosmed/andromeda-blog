@@ -1,10 +1,16 @@
+import Link from "next/link";
+import Image from "next/image";
 import { getAllPosts, getAllCategories } from "@/lib/posts";
+import { formatDate } from "@/lib/types";
 import ArticleCard from "@/components/ArticleCard";
 import CategoryFilter from "@/components/CategoryFilter";
 
 export default function HomePage() {
   const posts = getAllPosts();
   const categories = getAllCategories();
+  const top1 = posts[0];
+  const top2 = posts.slice(1, 4);
+  const rest = posts.slice(4);
 
   return (
     <>
@@ -58,14 +64,75 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Featured Section: top 4 articles */}
+      {top1 && (
+        <section className="max-w-6xl mx-auto px-4 sm:px-6 pt-10 pb-6">
+          <h2 className="text-xl font-semibold text-slate-900 mb-5">Mais lidos</h2>
+          <div className="grid lg:grid-cols-2 gap-5">
+            {/* Left: main featured */}
+            <Link href={`/${top1.slug}`} className="group relative block rounded-2xl overflow-hidden min-h-[380px] shadow-lg">
+              {top1.image ? (
+                <>
+                  <Image src={top1.image} alt={top1.title} fill className="object-cover transition-transform duration-500 group-hover:scale-105" priority />
+                  <div className="absolute inset-0 bg-gradient-to-t from-purple-950/90 via-purple-900/50 to-transparent" />
+                </>
+              ) : (
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-950 to-pink-900" />
+              )}
+              <div className="relative p-6 sm:p-8 flex flex-col justify-end h-full min-h-[380px]">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-xs font-medium bg-pink-500/30 text-pink-200 px-3 py-1 rounded-full backdrop-blur-sm">{top1.category}</span>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-bold text-white leading-tight mb-2 group-hover:text-pink-200 transition-colors">{top1.title}</h3>
+                <p className="text-purple-200 text-sm leading-relaxed line-clamp-2 mb-3">{top1.description}</p>
+                <div className="flex items-center gap-2 text-purple-300 text-xs">
+                  <span>{top1.author}</span>
+                  <span>·</span>
+                  <span>{formatDate(top1.date)}</span>
+                  <span>·</span>
+                  <span>{top1.readingTime}</span>
+                </div>
+              </div>
+            </Link>
+
+            {/* Right: 2nd, 3rd, 4th */}
+            <div className="flex flex-col gap-4">
+              {top2.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/${post.slug}`}
+                  className="group flex gap-4 bg-white border border-purple-100 rounded-xl overflow-hidden hover:border-pink-300 hover:shadow-md transition-all"
+                >
+                  {post.image && (
+                    <div className="relative w-32 sm:w-40 shrink-0 overflow-hidden">
+                      <Image src={post.image} alt={post.title} fill className="object-cover transition-transform duration-300 group-hover:scale-105" />
+                    </div>
+                  )}
+                  <div className="flex-1 min-w-0 py-3 pr-4">
+                    <span className="text-[10px] font-medium text-pink-600 bg-pink-50 px-2 py-0.5 rounded-full">{post.category}</span>
+                    <h4 className="text-sm font-semibold text-slate-900 leading-snug mt-1.5 mb-1 group-hover:text-purple-700 transition-colors line-clamp-2">{post.title}</h4>
+                    <p className="text-xs text-slate-500 line-clamp-2 mb-1.5">{post.description}</p>
+                    <div className="flex items-center gap-2 text-slate-400 text-[10px]">
+                      <span>{formatDate(post.date)}</span>
+                      <span>·</span>
+                      <span>{post.readingTime}</span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Articles grid */}
-      <div id="artigos" className="max-w-6xl mx-auto px-4 sm:px-6 pb-10 pt-10">
-        {posts.length > 0 && (
+      <div id="artigos" className="max-w-6xl mx-auto px-4 sm:px-6 pb-10 pt-6">
+        {rest.length > 0 && (
           <section>
             <h2 className="text-xl font-semibold text-slate-900 mb-5">
               Artigos recentes
             </h2>
-            <CategoryFilter posts={posts} categories={categories} />
+            <CategoryFilter posts={rest} categories={categories} />
           </section>
         )}
 
