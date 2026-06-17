@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="tradGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="lmsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="savedGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.12"/>
+    </filter>
+    <pattern id="hatch" patternUnits="userSpaceOnUse" width="8" height="8" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#16a34a" stroke-width="2" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="640" fill="#f8fafc"/>
+  <text x="500" y="50" text-anchor="middle" font-size="24" font-weight="700" fill="#0f172a">Time-to-competency do corpo clínico</text>
+  <text x="500" y="78" text-anchor="middle" font-size="14" fill="#64748b">Modelo tradicional vs. modelo com plataforma LMS — cenário composto de hospital de 200 leitos</text>
+  <text x="60" y="130" font-size="13" font-weight="700" fill="#475569" letter-spacing="1">TEMPO ATÉ AUTONOMIA PLENA</text>
+  <line x1="60" y1="155" x2="780" y2="155" stroke="#cbd5e1" stroke-width="1"/>
+  <g font-size="10" fill="#94a3b8" text-anchor="middle">
+    <text x="60" y="148">0</text>
+    <text x="180" y="148">10</text>
+    <text x="300" y="148">20</text>
+    <text x="420" y="148">30</text>
+    <text x="540" y="148">40</text>
+    <text x="660" y="148">50</text>
+    <text x="780" y="148">60</text>
+    <text x="780" y="170" font-style="italic">dias</text>
+  </g>
+  <g stroke="#cbd5e1" stroke-width="1">
+    <line x1="60" y1="152" x2="60" y2="158"/>
+    <line x1="180" y1="152" x2="180" y2="158"/>
+    <line x1="300" y1="152" x2="300" y2="158"/>
+    <line x1="420" y1="152" x2="420" y2="158"/>
+    <line x1="540" y1="152" x2="540" y2="158"/>
+    <line x1="660" y1="152" x2="660" y2="158"/>
+    <line x1="780" y1="152" x2="780" y2="158"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="60" y="195" width="720" height="55" rx="6" fill="url(#tradGrad)"/>
+  </g>
+  <text x="68" y="219" font-size="13" font-weight="700" fill="#ffffff">MODELO TRADICIONAL</text>
+  <text x="68" y="240" font-size="11" fill="#fed7aa">Conteúdo disperso · sincronizado · sem mensuração</text>
+  <text x="772" y="231" text-anchor="end" font-size="22" font-weight="700" fill="#ffffff">60 dias</text>
+  <g filter="url(#shadow)">
+    <rect x="60" y="275" width="420" height="55" rx="6" fill="url(#lmsGrad)"/>
+    <rect x="480" y="275" width="300" height="55" rx="6" fill="url(#hatch)" stroke="#16a34a" stroke-width="2" stroke-dasharray="6,4"/>
+  </g>
+  <text x="68" y="299" font-size="13" font-weight="700" fill="#ffffff">COM PLATAFORMA LMS</text>
+  <text x="68" y="320" font-size="11" fill="#ccfbf1">Trilhas por competência · microlearning · analytics</text>
+  <text x="472" y="311" text-anchor="end" font-size="22" font-weight="700" fill="#ffffff">35 dias</text>
+  <text x="630" y="305" text-anchor="middle" font-size="13" font-weight="700" fill="#15803d">25 DIAS RECUPERADOS</text>
+  <text x="630" y="320" text-anchor="middle" font-size="10" fill="#16a34a" font-style="italic">–42% no tempo de capacitação</text>
+  <line x1="60" y1="380" x2="940" y2="380" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="420" font-size="13" font-weight="700" fill="#475569" letter-spacing="1">IMPACTO FINANCEIRO ANUAL</text>
+  <g filter="url(#shadow)">
+    <rect x="60" y="445" width="270" height="155" rx="10" fill="#ffffff" stroke="#fed7aa" stroke-width="2"/>
+  </g>
+  <text x="80" y="478" font-size="11" font-weight="600" fill="#c2410c" letter-spacing="1">MODELO TRADICIONAL</text>
+  <text x="80" y="520" font-size="32" font-weight="700" fill="#0f172a">R$ 960<tspan font-size="20" fill="#64748b">k</tspan></text>
+  <text x="80" y="546" font-size="12" fill="#64748b">em capacidade subutilizada</text>
+  <text x="80" y="564" font-size="12" fill="#64748b">por ano</text>
+  <text x="80" y="586" font-size="11" fill="#94a3b8" font-style="italic">40 contratações × R$ 24k</text>
+  <g filter="url(#shadow)">
+    <rect x="350" y="445" width="270" height="155" rx="10" fill="#ffffff" stroke="#99f6e4" stroke-width="2"/>
+  </g>
+  <text x="370" y="478" font-size="11" font-weight="600" fill="#0f766e" letter-spacing="1">COM PLATAFORMA LMS</text>
+  <text x="370" y="520" font-size="32" font-weight="700" fill="#0f172a">R$ 560<tspan font-size="20" fill="#64748b">k</tspan></text>
+  <text x="370" y="546" font-size="12" fill="#64748b">em capacidade subutilizada</text>
+  <text x="370" y="564" font-size="12" fill="#64748b">por ano</text>
+  <text x="370" y="586" font-size="11" fill="#94a3b8" font-style="italic">40 contratações × R$ 14k</text>
+  <g filter="url(#shadow)">
+    <rect x="640" y="445" width="300" height="155" rx="10" fill="url(#cardGrad)"/>
+  </g>
+  <text x="660" y="478" font-size="11" font-weight="600" fill="#86efac" letter-spacing="1">GANHO ANUAL</text>
+  <text x="660" y="520" font-size="32" font-weight="700" fill="#ffffff">R$ 400<tspan font-size="20" fill="#a7f3d0">k</tspan></text>
+  <text x="660" y="546" font-size="12" fill="#d1fae5">recuperados por ano com</text>
+  <text x="660" y="564" font-size="12" fill="#d1fae5">a redução do time-to-competency</text>
+  <rect x="660" y="578" width="160" height="18" rx="9" fill="#22c55e"/>
+  <text x="740" y="591" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">PAYBACK &lt; 6 MESES</text>
+  <text x="500" y="625" text-anchor="middle" font-size="10" fill="#94a3b8">Premissas: 40 contratações clínicas/ano · custo total mensal médio de R$ 12k/profissional · investimento típico em LMS especializado &lt; R$ 100k/ano</text>
+</svg>
