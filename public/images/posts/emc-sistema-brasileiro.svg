@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="topGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="midGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="socGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="medGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="lmsGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <text x="450" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Sistema brasileiro de Educação Médica Continuada</text>
+  <text x="450" y="65" text-anchor="middle" font-size="14" fill="#64748b">Hierarquia regulatória e fluxo de certificação</text>
+
+  <g>
+    <rect x="180" y="100" width="240" height="80" rx="10" fill="url(#topGrad)"/>
+    <text x="300" y="135" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">CFM</text>
+    <text x="300" y="160" text-anchor="middle" font-size="12" fill="#dbeafe">Conselho Federal de Medicina</text>
+
+    <rect x="480" y="100" width="240" height="80" rx="10" fill="url(#topGrad)"/>
+    <text x="600" y="135" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">AMB</text>
+    <text x="600" y="160" text-anchor="middle" font-size="12" fill="#dbeafe">Associação Médica Brasileira</text>
+  </g>
+
+  <text x="450" y="200" text-anchor="middle" font-size="11" fill="#475569" font-style="italic">Define princípios éticos e normativos · Financia atividades de EMC nos CRMs</text>
+
+  <line x1="300" y1="210" x2="420" y2="245" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="600" y1="210" x2="480" y2="245" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="320" y="250" width="260" height="80" rx="10" fill="url(#midGrad)"/>
+    <text x="450" y="285" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">CNA</text>
+    <text x="450" y="310" text-anchor="middle" font-size="12" fill="#ccfbf1">Comissão Nacional de Acreditação</text>
+  </g>
+  <text x="450" y="350" text-anchor="middle" font-size="11" fill="#475569" font-style="italic">Centraliza as regras de pontuação e validação dos créditos</text>
+
+  <line x1="450" y1="360" x2="450" y2="395" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="240" y="400" width="420" height="80" rx="10" fill="url(#socGrad)"/>
+    <text x="450" y="435" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Sociedades de Especialidade</text>
+    <text x="450" y="460" text-anchor="middle" font-size="12" fill="#ede9fe">Cardiologia · Pediatria · Infectologia · Ortopedia · etc.</text>
+  </g>
+  <text x="450" y="500" text-anchor="middle" font-size="11" fill="#475569" font-style="italic">Estruturam programas de certificação por área · Aplicam regras da CNA · Emitem certificados</text>
+
+  <line x1="450" y1="510" x2="450" y2="545" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="320" y="550" width="260" height="80" rx="10" fill="url(#medGrad)"/>
+    <text x="450" y="585" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">Médico</text>
+    <text x="450" y="610" text-anchor="middle" font-size="12" fill="#fed7aa">Acumula créditos · Recebe Certificado de Atualização Profissional</text>
+  </g>
+
+  <g>
+    <rect x="60" y="400" width="150" height="230" rx="10" fill="url(#lmsGrad)" opacity="0.95"/>
+    <text x="135" y="445" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">PLATAFORMA LMS</text>
+    <text x="135" y="475" text-anchor="middle" font-size="11" fill="#e0f2fe">Camada</text>
+    <text x="135" y="490" text-anchor="middle" font-size="11" fill="#e0f2fe">operacional</text>
+    <line x1="80" y1="510" x2="190" y2="510" stroke="#7dd3fc" stroke-width="1" opacity="0.5"/>
+    <text x="135" y="535" text-anchor="middle" font-size="10" fill="#e0f2fe">Distribui conteúdo</text>
+    <text x="135" y="555" text-anchor="middle" font-size="10" fill="#e0f2fe">Rastreia créditos</text>
+    <text x="135" y="575" text-anchor="middle" font-size="10" fill="#e0f2fe">Mapeia competências</text>
+    <text x="135" y="595" text-anchor="middle" font-size="10" fill="#e0f2fe">Emite relatórios</text>
+    <text x="135" y="615" text-anchor="middle" font-size="10" fill="#e0f2fe">auditáveis</text>
+  </g>
+
+  <path d="M 210 450 Q 225 450 240 440" stroke="#0c4a6e" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <path d="M 210 590 Q 265 590 320 590" stroke="#0c4a6e" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+
+  <text x="450" y="685" text-anchor="middle" font-size="11" fill="#94a3b8">Fonte: estrutura institucional CFM/AMB · Sistema de Certificação de Atualização Profissional</text>
+  <text x="450" y="702" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">Andromeda LMS</text>
+</svg>
