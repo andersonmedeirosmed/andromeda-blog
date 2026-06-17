@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9f1239"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1000" height="720" fill="#f8fafc"/>
+  <text x="500" y="55" text-anchor="middle" font-size="26" font-weight="700" fill="#0f172a">As 6 transformações da Educação Médica Continuada em 2026</text>
+  <text x="500" y="82" text-anchor="middle" font-size="14" fill="#64748b">O que mudou na forma como o médico aprende — e como hospitais e sociedades precisam se adaptar</text>
+  <g filter="url(#shadow)">
+    <rect x="40" y="120" width="300" height="260" rx="14" fill="#ffffff"/>
+    <rect x="40" y="120" width="300" height="6" rx="3" fill="url(#g1)"/>
+    <circle cx="80" cy="170" r="22" fill="url(#g1)"/>
+    <text x="80" y="178" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">1</text>
+    <g transform="translate(265, 148)">
+      <circle cx="20" cy="20" r="18" fill="none" stroke="url(#g1)" stroke-width="2.5"/>
+      <line x1="20" y1="20" x2="20" y2="10" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="20" y1="20" x2="27" y2="22" stroke="url(#g1)" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <text x="60" y="225" font-size="16" font-weight="700" fill="#0f172a">Microlearning</text>
+    <text x="60" y="247" font-size="13" fill="#475569">substitui aulas longas</text>
+    <text x="60" y="285" font-size="12" fill="#64748b">Cápsulas de 3–7 minutos</text>
+    <text x="60" y="303" font-size="12" fill="#64748b">aplicáveis em plantão.</text>
+    <text x="60" y="321" font-size="12" fill="#64748b">Consumo mobile, entre</text>
+    <text x="60" y="339" font-size="12" fill="#64748b">atendimentos.</text>
+    <rect x="60" y="352" width="100" height="20" rx="10" fill="#dbeafe"/>
+    <text x="110" y="366" text-anchor="middle" font-size="10" font-weight="600" fill="#1e40af">FORMATO</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="350" y="120" width="300" height="260" rx="14" fill="#ffffff"/>
+    <rect x="350" y="120" width="300" height="6" rx="3" fill="url(#g2)"/>
+    <circle cx="390" cy="170" r="22" fill="url(#g2)"/>
+    <text x="390" y="178" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">2</text>
+    <g transform="translate(575, 150)">
+      <circle cx="20" cy="20" r="4" fill="url(#g2)"/>
+      <circle cx="8" cy="10" r="3" fill="url(#g2)"/>
+      <circle cx="32" cy="10" r="3" fill="url(#g2)"/>
+      <circle cx="8" cy="30" r="3" fill="url(#g2)"/>
+      <circle cx="32" cy="30" r="3" fill="url(#g2)"/>
+      <line x1="20" y1="20" x2="8" y2="10" stroke="url(#g2)" stroke-width="2"/>
+      <line x1="20" y1="20" x2="32" y2="10" stroke="url(#g2)" stroke-width="2"/>
+      <line x1="20" y1="20" x2="8" y2="30" stroke="url(#g2)" stroke-width="2"/>
+      <line x1="20" y1="20" x2="32" y2="30" stroke="url(#g2)" stroke-width="2"/>
+    </g>
+    <text x="370" y="225" font-size="16" font-weight="700" fill="#0f172a">IA aplicada</text>
+    <text x="370" y="247" font-size="13" fill="#475569">à educação médica</text>
+    <text x="370" y="285" font-size="12" fill="#64748b">Resolução CFM 2.454/2026</text>
+    <text x="370" y="303" font-size="12" fill="#64748b">reconhece IA como apoio</text>
+    <text x="370" y="321" font-size="12" fill="#64748b">à EMC, com governança</text>
+    <text x="370" y="339" font-size="12" fill="#64748b">e supervisão humana.</text>
+    <rect x="370" y="352" width="120" height="20" rx="10" fill="#ccfbf1"/>
+    <text x="430" y="366" text-anchor="middle" font-size="10" font-weight="600" fill="#0f766e">REGULATÓRIO</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="660" y="120" width="300" height="260" rx="14" fill="#ffffff"/>
+    <rect x="660" y="120" width="300" height="6" rx="3" fill="url(#g3)"/>
+    <circle cx="700" cy="170" r="22" fill="url(#g3)"/>
+    <text x="700" y="178" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">3</text>
+    <g transform="translate(885, 150)">
+      <circle cx="20" cy="20" r="18" fill="none" stroke="url(#g3)" stroke-width="2.5"/>
+      <circle cx="20" cy="20" r="11" fill="none" stroke="url(#g3)" stroke-width="2"/>
+      <circle cx="20" cy="20" r="4" fill="url(#g3)"/>
+    </g>
+    <text x="680" y="225" font-size="16" font-weight="700" fill="#0f172a">Trilhas por</text>
+    <text x="680" y="247" font-size="13" fill="#475569">competências</text>
+    <text x="680" y="285" font-size="12" fill="#64748b">Mapeia gaps individuais</text>
+    <text x="680" y="303" font-size="12" fill="#64748b">e monta percursos</text>
+    <text x="680" y="321" font-size="12" fill="#64748b">personalizados, no lugar</text>
+    <text x="680" y="339" font-size="12" fill="#64748b">de catálogos rígidos.</text>
+    <rect x="680" y="352" width="130" height="20" rx="10" fill="#ede9fe"/>
+    <text x="745" y="366" text-anchor="middle" font-size="10" font-weight="600" fill="#7c3aed">PERSONALIZAÇÃO</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="40" y="400" width="300" height="260" rx="14" fill="#ffffff"/>
+    <rect x="40" y="400" width="300" height="6" rx="3" fill="url(#g4)"/>
+    <circle cx="80" cy="450" r="22" fill="url(#g4)"/>
+    <text x="80" y="458" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">4</text>
+    <g transform="translate(265, 430)">
+      <circle cx="13" cy="15" r="6" fill="none" stroke="url(#g4)" stroke-width="2.5"/>
+      <circle cx="27" cy="15" r="6" fill="none" stroke="url(#g4)" stroke-width="2.5"/>
+      <path d="M 4 35 Q 13 25 22 35" fill="none" stroke="url(#g4)" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 18 35 Q 27 25 36 35" fill="none" stroke="url(#g4)" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <text x="60" y="505" font-size="16" font-weight="700" fill="#0f172a">Aprendizagem</text>
+    <text x="60" y="527" font-size="13" fill="#475569">colaborativa e por casos</text>
+    <text x="60" y="565" font-size="12" fill="#64748b">Discussão clínica em</text>
+    <text x="60" y="583" font-size="12" fill="#64748b">fóruns, salas síncronas</text>
+    <text x="60" y="601" font-size="12" fill="#64748b">e comentários sobre</text>
+    <text x="60" y="619" font-size="12" fill="#64748b">laudos compartilhados.</text>
+    <rect x="60" y="632" width="110" height="20" rx="10" fill="#fed7aa"/>
+    <text x="115" y="646" text-anchor="middle" font-size="10" font-weight="600" fill="#c2410c">COMUNIDADE</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="350" y="400" width="300" height="260" rx="14" fill="#ffffff"/>
+    <rect x="350" y="400" width="300" height="6" rx="3" fill="url(#g5)"/>
+    <circle cx="390" cy="450" r="22" fill="url(#g5)"/>
+    <text x="390" y="458" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">5</text>
+    <g transform="translate(575, 430)">
+      <path d="M 10 8 L 10 20 Q 10 30 20 30 Q 30 30 30 20 L 30 8" fill="none" stroke="url(#g5)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="20" cy="36" r="4" fill="none" stroke="url(#g5)" stroke-width="2.5"/>
+    </g>
+    <text x="370" y="505" font-size="16" font-weight="700" fill="#0f172a">Integração</text>
+    <text x="370" y="527" font-size="13" fill="#475569">com a prática clínica</text>
+    <text x="370" y="565" font-size="12" fill="#64748b">Conteúdo conectado a</text>
+    <text x="370" y="583" font-size="12" fill="#64748b">protocolos, prontuário</text>
+    <text x="370" y="601" font-size="12" fill="#64748b">e ferramentas de second</text>
+    <text x="370" y="619" font-size="12" fill="#64748b">opinion no momento da decisão.</text>
+    <rect x="370" y="632" width="105" height="20" rx="10" fill="#e0f2fe"/>
+    <text x="422" y="646" text-anchor="middle" font-size="10" font-weight="600" fill="#075985">INTEGRAÇÃO</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="660" y="400" width="300" height="260" rx="14" fill="#ffffff"/>
+    <rect x="660" y="400" width="300" height="6" rx="3" fill="url(#g6)"/>
+    <circle cx="700" cy="450" r="22" fill="url(#g6)"/>
+    <text x="700" y="458" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">6</text>
+    <g transform="translate(880, 430)">
+      <polyline points="5,35 13,25 21,30 29,15 37,20" fill="none" stroke="url(#g6)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="37" cy="20" r="3" fill="url(#g6)"/>
+    </g>
+    <text x="680" y="505" font-size="16" font-weight="700" fill="#0f172a">Mensuração</text>
+    <text x="680" y="527" font-size="13" fill="#475569">de impacto na prática</text>
+    <text x="680" y="565" font-size="12" fill="#64748b">Indicadores assistenciais,</text>
+    <text x="680" y="583" font-size="12" fill="#64748b">redução de eventos adversos</text>
+    <text x="680" y="601" font-size="12" fill="#64748b">e queda de retrabalho viram</text>
+    <text x="680" y="619" font-size="12" fill="#64748b">métricas do LMS.</text>
+    <rect x="680" y="632" width="100" height="20" rx="10" fill="#ffe4e6"/>
+    <text x="730" y="646" text-anchor="middle" font-size="10" font-weight="600" fill="#9f1239">RESULTADOS</text>
+  </g>
+  <text x="500" y="700" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">Andromeda LMS · Educação Médica Continuada em 2026</text>
+</svg>
