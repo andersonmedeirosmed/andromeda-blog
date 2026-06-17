@@ -128,8 +128,8 @@ export default async function ArticlePage({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      {/* Cover with gradient overlay */}
-      <div className="relative w-full h-72 sm:h-96 overflow-hidden">
+      {/* Article Hero */}
+      <section className="relative w-full min-h-[420px] sm:min-h-[480px] overflow-hidden flex items-end">
         {post.image ? (
           <Image
             src={post.image}
@@ -139,31 +139,47 @@ export default async function ArticlePage({ params }: Props) {
             priority
           />
         ) : (
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-950 to-pink-900" />
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-purple-950 to-slate-950" />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-white via-white/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent" />
         <div className="absolute inset-0 pointer-events-none">
-          <div className="dot-float absolute top-12 left-[15%] w-2 h-2 rounded-full bg-pink-400/40" />
-          <div className="dot-float-slow absolute top-20 left-[50%] w-3 h-3 rounded-full bg-purple-400/30" />
-          <div className="dot-float-reverse absolute top-16 left-[80%] w-2 h-2 rounded-full bg-pink-300/40" />
+          <div className="dot-float absolute top-16 left-[10%] w-2 h-2 rounded-full bg-pink-400/40" />
+          <div className="dot-float-slow absolute top-24 left-[35%] w-3 h-3 rounded-full bg-purple-400/30" />
+          <div className="dot-float-reverse absolute top-12 left-[65%] w-2 h-2 rounded-full bg-pink-300/40" />
+          <div className="dot-float absolute top-20 left-[85%] w-1.5 h-1.5 rounded-full bg-purple-500/30" />
+          <div className="absolute top-0 left-1/4 w-72 h-72 bg-pink-500/5 rounded-full blur-3xl" />
         </div>
-      </div>
+
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pb-10 pt-24 w-full">
+          {/* Breadcrumb */}
+          <nav className="flex items-center gap-2 text-sm text-white/50 mb-5">
+            <Link href="/" className="hover:text-pink-300 transition-colors">Blog</Link>
+            <span>/</span>
+            <Link href={`/categoria/${post.category.toLowerCase()}`} className="hover:text-pink-300 transition-colors capitalize">{post.category}</Link>
+          </nav>
+
+          <div className="flex items-center gap-2 mb-4">
+            <span className="text-xs font-medium bg-pink-500/20 text-pink-200 px-3 py-1 rounded-full backdrop-blur-sm border border-pink-400/20">
+              {post.category}
+            </span>
+            <span className="text-xs text-purple-200/60">{post.readingTime}</span>
+          </div>
+
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4 max-w-3xl">
+            {post.title}
+          </h1>
+          <p className="text-lg text-purple-100/70 leading-relaxed mb-6 max-w-2xl">
+            {post.description}
+          </p>
+          <div className="flex items-center gap-3 text-sm text-purple-200/50">
+            <span className="font-medium text-white/80">{post.author}</span>
+            <span>·</span>
+            <time dateTime={post.date}>{formatDate(post.date)}</time>
+          </div>
+        </div>
+      </section>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-        {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-sm text-slate-400 mb-8">
-          <Link href="/" className="hover:text-pink-600 transition-colors">
-            Blog
-          </Link>
-          <span className="text-purple-300">/</span>
-          <Link
-            href={`/categoria/${post.category.toLowerCase()}`}
-            className="hover:text-pink-600 transition-colors capitalize"
-          >
-            {post.category}
-          </Link>
-        </nav>
-
         <div className="flex gap-12">
           {/* TOC — left sidebar */}
           {headings.length > 0 && (
@@ -174,27 +190,6 @@ export default async function ArticlePage({ params }: Props) {
 
           {/* Main content */}
           <div className="flex-1 min-w-0">
-            {/* Article header */}
-            <header className="mb-10">
-              <div className="mb-4">
-                <span className="text-xs font-medium text-pink-600 bg-pink-50 px-3 py-1 rounded-full">
-                  {post.category}
-                </span>
-              </div>
-              <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 leading-tight mb-4">
-                {post.title}
-              </h1>
-              <p className="text-xl text-slate-500 leading-relaxed mb-6">
-                {post.description}
-              </p>
-              <div className="flex items-center gap-3 text-sm text-slate-400 pb-8 border-b border-purple-100">
-                <span className="font-medium text-slate-600">{post.author}</span>
-                <span className="text-purple-300">·</span>
-                <time dateTime={post.date}>{formatDate(post.date)}</time>
-                <span className="text-purple-300">·</span>
-                <span>{post.readingTime}</span>
-              </div>
-            </header>
 
             {/* Article content */}
             <article
