@@ -22,10 +22,10 @@ export default function CategoryFilter({ posts, categories }: Props) {
           <button
             key={cat}
             onClick={() => setActive(cat)}
-            className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
+            className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all ${
               active === cat
-                ? "bg-blue-600 text-white"
-                : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                ? "bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-md shadow-pink-500/20"
+                : "bg-purple-50 text-purple-700 hover:bg-purple-100"
             }`}
           >
             {cat}
