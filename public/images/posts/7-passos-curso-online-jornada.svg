@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 460" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="s1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
+    <linearGradient id="s2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#818cf8"/></linearGradient>
+    <linearGradient id="s3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0d9488"/><stop offset="100%" stop-color="#2dd4bf"/></linearGradient>
+    <linearGradient id="s4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#16a34a"/><stop offset="100%" stop-color="#4ade80"/></linearGradient>
+    <linearGradient id="s5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+    <linearGradient id="s6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#ea580c"/><stop offset="100%" stop-color="#fb923c"/></linearGradient>
+    <linearGradient id="s7" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#e11d48"/><stop offset="100%" stop-color="#fb7185"/></linearGradient>
+    <linearGradient id="pathGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3b82f6"/><stop offset="16%" stop-color="#6366f1"/><stop offset="33%" stop-color="#0d9488"/><stop offset="50%" stop-color="#16a34a"/><stop offset="66%" stop-color="#f59e0b"/><stop offset="83%" stop-color="#ea580c"/><stop offset="100%" stop-color="#e11d48"/></linearGradient>
+    <filter id="nodeShadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="1300" height="460" fill="#fefefe"/>
+  <rect x="60" y="35" width="160" height="22" rx="11" fill="#f1f5f9"/>
+  <text x="140" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="#64748b" letter-spacing="2">SUA JORNADA</text>
+  <text x="60" y="90" font-size="24" font-weight="700" fill="#0f172a">Os 7 passos para criar e vender seu primeiro curso online</text>
+  <text x="60" y="113" font-size="13" fill="#64748b">Sequência testada — pule um passo e o resultado cai. Siga a ordem e o caminho fica claro.</text>
+  <path d="M 90 260 Q 175 220, 260 260 T 430 260 T 600 260 T 770 260 T 940 260 T 1110 260 L 1200 260" stroke="url(#pathGrad)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <line x1="1200" y1="260" x2="1240" y2="260" stroke="#e11d48" stroke-width="3" stroke-dasharray="6,4" stroke-linecap="round"/>
+  <g transform="translate(1245, 248)"><polygon points="0,12 12,6 0,0 4,6" fill="#e11d48"/><text x="20" y="11" font-size="11" font-weight="700" fill="#e11d48">LANÇAMENTO</text></g>
+  <g transform="translate(90, 260)"><circle cx="0" cy="0" r="32" fill="url(#s1)" filter="url(#nodeShadow)"/><circle cx="0" cy="0" r="32" fill="none" stroke="#ffffff" stroke-width="3"/><text x="0" y="7" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">1</text></g>
+  <text x="90" y="320" text-anchor="middle" font-size="13" font-weight="700" fill="#1e3a8a">Validar</text>
+  <text x="90" y="338" text-anchor="middle" font-size="11" fill="#64748b">a demanda</text>
+  <text x="90" y="358" text-anchor="middle" font-size="10" fill="#94a3b8">antes de produzir</text>
+  <text x="90" y="385" text-anchor="middle" font-size="9" font-weight="600" fill="#3b82f6" font-style="italic">passo zero</text>
+  <g transform="translate(260, 260)"><circle cx="0" cy="0" r="32" fill="url(#s2)" filter="url(#nodeShadow)"/><circle cx="0" cy="0" r="32" fill="none" stroke="#ffffff" stroke-width="3"/><text x="0" y="7" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">2</text></g>
+  <text x="260" y="320" text-anchor="middle" font-size="13" font-weight="700" fill="#3730a3">Definir a</text>
+  <text x="260" y="338" text-anchor="middle" font-size="11" fill="#64748b">transformação</text>
+  <text x="260" y="358" text-anchor="middle" font-size="10" fill="#94a3b8">não o tema</text>
+  <text x="260" y="385" text-anchor="middle" font-size="9" font-weight="600" fill="#6366f1" font-style="italic">A → B em X tempo</text>
+  <g transform="translate(430, 260)"><circle cx="0" cy="0" r="32" fill="url(#s3)" filter="url(#nodeShadow)"/><circle cx="0" cy="0" r="32" fill="none" stroke="#ffffff" stroke-width="3"/><text x="0" y="7" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">3</text></g>
+  <text x="430" y="320" text-anchor="middle" font-size="13" font-weight="700" fill="#115e59">Estruturar</text>
+  <text x="430" y="338" text-anchor="middle" font-size="11" fill="#64748b">em microlições</text>
+  <text x="430" y="358" text-anchor="middle" font-size="10" fill="#94a3b8">5–12 min por aula</text>
+  <text x="430" y="385" text-anchor="middle" font-size="9" font-weight="600" fill="#0d9488" font-style="italic">ação ao final de cada</text>
+  <g transform="translate(600, 260)"><circle cx="0" cy="0" r="36" fill="url(#s4)" filter="url(#nodeShadow)"/><circle cx="0" cy="0" r="36" fill="none" stroke="#ffffff" stroke-width="3"/><text x="0" y="7" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">4</text></g>
+  <text x="600" y="324" text-anchor="middle" font-size="13" font-weight="700" fill="#14532d">Produzir o MVP</text>
+  <text x="600" y="342" text-anchor="middle" font-size="11" fill="#64748b">não a versão perfeita</text>
+  <text x="600" y="362" text-anchor="middle" font-size="10" fill="#94a3b8">áudio limpo &gt; produção</text>
+  <text x="600" y="389" text-anchor="middle" font-size="9" font-weight="600" fill="#16a34a" font-style="italic">marco mais demorado</text>
+  <g transform="translate(770, 260)"><circle cx="0" cy="0" r="32" fill="url(#s5)" filter="url(#nodeShadow)"/><circle cx="0" cy="0" r="32" fill="none" stroke="#ffffff" stroke-width="3"/><text x="0" y="7" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">5</text></g>
+  <text x="770" y="320" text-anchor="middle" font-size="13" font-weight="700" fill="#92400e">Precificar</text>
+  <text x="770" y="338" text-anchor="middle" font-size="11" fill="#64748b">com estratégia</text>
+  <text x="770" y="358" text-anchor="middle" font-size="10" fill="#94a3b8">R$ 297 é o sweet spot</text>
+  <text x="770" y="385" text-anchor="middle" font-size="9" font-weight="600" fill="#f59e0b" font-style="italic">oferta &gt; preço</text>
+  <g transform="translate(940, 260)"><circle cx="0" cy="0" r="32" fill="url(#s6)" filter="url(#nodeShadow)"/><circle cx="0" cy="0" r="32" fill="none" stroke="#ffffff" stroke-width="3"/><text x="0" y="7" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">6</text></g>
+  <text x="940" y="320" text-anchor="middle" font-size="13" font-weight="700" fill="#7c2d12">Escolher a</text>
+  <text x="940" y="338" text-anchor="middle" font-size="11" fill="#64748b">plataforma</text>
+  <text x="940" y="358" text-anchor="middle" font-size="10" fill="#94a3b8">marketplace, LMS ou híbrido</text>
+  <text x="940" y="385" text-anchor="middle" font-size="9" font-weight="600" fill="#ea580c" font-style="italic">decisão estratégica</text>
+  <g transform="translate(1110, 260)"><circle cx="0" cy="0" r="36" fill="url(#s7)" filter="url(#nodeShadow)"/><circle cx="0" cy="0" r="36" fill="none" stroke="#ffffff" stroke-width="3"/><text x="0" y="7" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">7</text></g>
+  <text x="1110" y="324" text-anchor="middle" font-size="13" font-weight="700" fill="#9f1239">Lançar com</text>
+  <text x="1110" y="342" text-anchor="middle" font-size="11" fill="#64748b">pré-venda</text>
+  <text x="1110" y="362" text-anchor="middle" font-size="10" fill="#94a3b8">4 semanas estruturadas</text>
+  <text x="1110" y="389" text-anchor="middle" font-size="9" font-weight="600" fill="#e11d48" font-style="italic">→ iterar para a próxima</text>
+  <g opacity="0.7">
+    <rect x="65" y="160" width="170" height="22" rx="11" fill="#dbeafe"/><text x="150" y="175" text-anchor="middle" font-size="10" font-weight="700" fill="#1e40af" letter-spacing="1">FUNDAMENTOS</text>
+    <rect x="385" y="160" width="195" height="22" rx="11" fill="#dcfce7"/><text x="482" y="175" text-anchor="middle" font-size="10" font-weight="700" fill="#15803d" letter-spacing="1">CONSTRUÇÃO</text>
+    <rect x="730" y="160" width="180" height="22" rx="11" fill="#fef3c7"/><text x="820" y="175" text-anchor="middle" font-size="10" font-weight="700" fill="#a16207" letter-spacing="1">ESTRATÉGIA</text>
+    <rect x="1055" y="160" width="115" height="22" rx="11" fill="#ffe4e6"/><text x="1112" y="175" text-anchor="middle" font-size="10" font-weight="700" fill="#9f1239" letter-spacing="1">LANÇAMENTO</text>
+  </g>
+  <line x1="60" y1="425" x2="1240" y2="425" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="60" y="445" font-size="11" fill="#94a3b8">Tempo total típico: <tspan font-weight="700" fill="#475569">60 a 90 dias</tspan> do zero ao primeiro aluno pagante</text>
+  <text x="1240" y="445" text-anchor="end" font-size="11" font-weight="600" fill="#94a3b8">Andromeda LMS</text>
+</svg>
