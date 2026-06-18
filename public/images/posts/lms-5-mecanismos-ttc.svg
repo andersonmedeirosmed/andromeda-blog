@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="m1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="m2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="m3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="m4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+    <linearGradient id="m5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+  <g opacity="0.06" fill="#ffffff">
+    <circle cx="100" cy="80" r="1.5"/><circle cx="300" cy="120" r="1.5"/><circle cx="500" cy="60" r="1.5"/><circle cx="700" cy="100" r="1.5"/><circle cx="900" cy="80" r="1.5"/><circle cx="1100" cy="120" r="1.5"/><circle cx="200" cy="280" r="1.5"/><circle cx="400" cy="320" r="1.5"/><circle cx="600" cy="290" r="1.5"/><circle cx="800" cy="310" r="1.5"/><circle cx="1000" cy="280" r="1.5"/>
+  </g>
+  <rect x="60" y="35" width="140" height="22" rx="11" fill="#334155"/>
+  <text x="130" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="#94a3b8" letter-spacing="2">OS 5 MECANISMOS</text>
+  <text x="60" y="90" font-size="22" font-weight="700" fill="#ffffff">Como uma plataforma LMS encurta o time-to-competency</text>
+  <text x="60" y="115" font-size="13" fill="#94a3b8">Cinco frentes que atuam em paralelo para liberar capacidade clínica mais rápido</text>
+  <g transform="translate(60, 160)">
+    <circle cx="40" cy="40" r="32" fill="url(#m1)" opacity="0.15"/><circle cx="40" cy="40" r="24" fill="none" stroke="url(#m1)" stroke-width="2"/>
+    <circle cx="40" cy="30" r="3" fill="#60a5fa"/><circle cx="32" cy="46" r="3" fill="#60a5fa"/><circle cx="48" cy="46" r="3" fill="#60a5fa"/>
+    <line x1="40" y1="30" x2="32" y2="46" stroke="#60a5fa" stroke-width="1.5"/><line x1="40" y1="30" x2="48" y2="46" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="90" y="32" font-size="10" font-weight="700" fill="#3b82f6" letter-spacing="2">01</text>
+    <text x="90" y="52" font-size="14" font-weight="700" fill="#ffffff">Trilhas por</text>
+    <text x="90" y="68" font-size="14" font-weight="700" fill="#ffffff">competência</text>
+    <text x="0" y="105" font-size="11" fill="#94a3b8">Conteúdo só para fechar</text>
+    <text x="0" y="120" font-size="11" fill="#94a3b8">gaps reais. Sem redundância.</text>
+    <text x="0" y="148" font-size="11" font-weight="700" fill="#60a5fa">–30% a –50% de tempo</text>
+  </g>
+  <line x1="280" y1="180" x2="280" y2="310" stroke="#334155" stroke-width="1"/>
+  <g transform="translate(300, 160)">
+    <circle cx="40" cy="40" r="32" fill="url(#m2)" opacity="0.15"/><circle cx="40" cy="40" r="24" fill="none" stroke="url(#m2)" stroke-width="2"/>
+    <circle cx="40" cy="40" r="14" fill="none" stroke="#2dd4bf" stroke-width="2"/>
+    <line x1="40" y1="40" x2="40" y2="32" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+    <line x1="40" y1="40" x2="46" y2="42" stroke="#2dd4bf" stroke-width="2" stroke-linecap="round"/>
+    <text x="90" y="32" font-size="10" font-weight="700" fill="#14b8a6" letter-spacing="2">02</text>
+    <text x="90" y="52" font-size="14" font-weight="700" fill="#ffffff">Microlearning</text>
+    <text x="90" y="68" font-size="14" font-weight="700" fill="#ffffff">no fluxo</text>
+    <text x="0" y="105" font-size="11" fill="#94a3b8">Cápsulas de 5–7 min entre</text>
+    <text x="0" y="120" font-size="11" fill="#94a3b8">atendimentos. Mobile-first.</text>
+    <text x="0" y="148" font-size="11" font-weight="700" fill="#2dd4bf">+80% taxa de conclusão</text>
+  </g>
+  <line x1="520" y1="180" x2="520" y2="310" stroke="#334155" stroke-width="1"/>
+  <g transform="translate(540, 160)">
+    <circle cx="40" cy="40" r="32" fill="url(#m3)" opacity="0.15"/><circle cx="40" cy="40" r="24" fill="none" stroke="url(#m3)" stroke-width="2"/>
+    <rect x="32" y="28" width="16" height="22" rx="2" fill="none" stroke="#c4b5fd" stroke-width="2"/>
+    <rect x="36" y="25" width="8" height="5" rx="1" fill="#c4b5fd"/>
+    <polyline points="35,42 38,45 45,38" fill="none" stroke="#c4b5fd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="90" y="32" font-size="10" font-weight="700" fill="#a78bfa" letter-spacing="2">03</text>
+    <text x="90" y="52" font-size="14" font-weight="700" fill="#ffffff">Simulação +</text>
+    <text x="90" y="68" font-size="14" font-weight="700" fill="#ffffff">avaliação async</text>
+    <text x="0" y="105" font-size="11" fill="#94a3b8">Profissional avança quando</text>
+    <text x="0" y="120" font-size="11" fill="#94a3b8">demonstra domínio.</text>
+    <text x="0" y="148" font-size="11" font-weight="700" fill="#c4b5fd">p &lt; 0.001 em estudo clínico</text>
+  </g>
+  <line x1="760" y1="180" x2="760" y2="310" stroke="#334155" stroke-width="1"/>
+  <g transform="translate(780, 160)">
+    <circle cx="40" cy="40" r="32" fill="url(#m4)" opacity="0.15"/><circle cx="40" cy="40" r="24" fill="none" stroke="url(#m4)" stroke-width="2"/>
+    <circle cx="40" cy="40" r="7" fill="none" stroke="#fdba74" stroke-width="2"/>
+    <g stroke="#fdba74" stroke-width="2.5" stroke-linecap="round">
+      <line x1="40" y1="28" x2="40" y2="32"/><line x1="40" y1="48" x2="40" y2="52"/>
+      <line x1="28" y1="40" x2="32" y2="40"/><line x1="48" y1="40" x2="52" y2="40"/>
+      <line x1="31.5" y1="31.5" x2="34.3" y2="34.3"/><line x1="45.7" y1="45.7" x2="48.5" y2="48.5"/>
+      <line x1="31.5" y1="48.5" x2="34.3" y2="45.7"/><line x1="45.7" y1="34.3" x2="48.5" y2="31.5"/>
+    </g>
+    <text x="90" y="32" font-size="10" font-weight="700" fill="#fb923c" letter-spacing="2">04</text>
+    <text x="90" y="52" font-size="14" font-weight="700" fill="#ffffff">Automação</text>
+    <text x="90" y="68" font-size="14" font-weight="700" fill="#ffffff">do onboarding</text>
+    <text x="0" y="105" font-size="11" fill="#94a3b8">Documentos, acessos e</text>
+    <text x="0" y="120" font-size="11" fill="#94a3b8">credenciamento sem fila.</text>
+    <text x="0" y="148" font-size="11" font-weight="700" fill="#fdba74">–60% em tempo administrativo</text>
+  </g>
+  <line x1="1000" y1="180" x2="1000" y2="310" stroke="#334155" stroke-width="1"/>
+  <g transform="translate(1020, 160)">
+    <circle cx="40" cy="40" r="32" fill="url(#m5)" opacity="0.15"/><circle cx="40" cy="40" r="24" fill="none" stroke="url(#m5)" stroke-width="2"/>
+    <rect x="30" y="42" width="4" height="10" rx="1" fill="#fb7185"/><rect x="37" y="36" width="4" height="16" rx="1" fill="#fb7185"/><rect x="44" y="30" width="4" height="22" rx="1" fill="#fb7185"/>
+    <line x1="28" y1="52" x2="52" y2="52" stroke="#fb7185" stroke-width="1.5"/>
+    <text x="90" y="32" font-size="10" font-weight="700" fill="#f43f5e" letter-spacing="2">05</text>
+    <text x="90" y="52" font-size="14" font-weight="700" fill="#ffffff">Analytics</text>
+    <text x="90" y="68" font-size="14" font-weight="700" fill="#ffffff">em tempo real</text>
+    <text x="0" y="105" font-size="11" fill="#94a3b8">Gargalos visíveis por unidade,</text>
+    <text x="0" y="120" font-size="11" fill="#94a3b8">especialidade e gestor.</text>
+    <text x="0" y="148" font-size="11" font-weight="700" fill="#fb7185">Intervenção antes do estouro</text>
+  </g>
+  <line x1="60" y1="335" x2="1140" y2="335" stroke="#334155" stroke-width="1" opacity="0.5"/>
+</svg>
