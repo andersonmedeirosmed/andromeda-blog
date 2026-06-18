@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 920" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <radialGradient id="c1Grad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#3b82f6" stop-opacity="0.55"/><stop offset="100%" stop-color="#3b82f6" stop-opacity="0.35"/></radialGradient>
+    <radialGradient id="c2Grad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#0d9488" stop-opacity="0.55"/><stop offset="100%" stop-color="#0d9488" stop-opacity="0.35"/></radialGradient>
+    <radialGradient id="c3Grad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ea580c" stop-opacity="0.55"/><stop offset="100%" stop-color="#ea580c" stop-opacity="0.35"/></radialGradient>
+    <linearGradient id="centerBadge" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#15803d"/><stop offset="100%" stop-color="#16a34a"/></linearGradient>
+    <linearGradient id="card1Top" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#1e40af"/><stop offset="100%" stop-color="#3b82f6"/></linearGradient>
+    <linearGradient id="card2Top" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#14b8a6"/></linearGradient>
+    <linearGradient id="card3Top" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c2410c"/><stop offset="100%" stop-color="#fb923c"/></linearGradient>
+    <filter id="cardSh3" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.10"/></filter>
+  </defs>
+  <rect width="1100" height="920" fill="#fafbfc"/>
+  <rect x="60" y="35" width="200" height="22" rx="11" fill="#f1f5f9"/>
+  <text x="160" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="#64748b" letter-spacing="2">FRAMEWORK DE DECISÃO</text>
+  <text x="60" y="90" font-size="24" font-weight="700" fill="#0f172a">Os 3 filtros para escolher o nicho do seu curso</text>
+  <text x="60" y="113" font-size="13" fill="#64748b">Seu nicho precisa passar nos três. Se falha em um, ajuste antes de produzir.</text>
+  <circle cx="430" cy="320" r="170" fill="url(#c1Grad)" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="650" cy="320" r="170" fill="url(#c2Grad)" stroke="#0f766e" stroke-width="2"/>
+  <circle cx="540" cy="490" r="170" fill="url(#c3Grad)" stroke="#c2410c" stroke-width="2"/>
+  <text x="320" y="200" font-size="14" font-weight="700" fill="#1e3a8a">FILTRO 1</text>
+  <text x="320" y="220" font-size="13" font-weight="600" fill="#1e40af">Domínio ou paixão real</text>
+  <text x="680" y="200" font-size="14" font-weight="700" fill="#115e59">FILTRO 2</text>
+  <text x="680" y="220" font-size="13" font-weight="600" fill="#0f766e">Demanda comprovada</text>
+  <text x="430" y="680" font-size="14" font-weight="700" fill="#7c2d12">FILTRO 3</text>
+  <text x="430" y="700" font-size="13" font-weight="600" fill="#c2410c">Público que paga</text>
+  <g>
+    <circle cx="540" cy="240" r="6" fill="#fef3c7" stroke="#a16207" stroke-width="1.5"/>
+    <text x="540" y="244" text-anchor="middle" font-size="9" font-weight="700" fill="#a16207">!</text>
+    <line x1="540" y1="230" x2="540" y2="155" stroke="#a16207" stroke-width="1" stroke-dasharray="3,3"/>
+    <rect x="445" y="125" width="190" height="32" rx="6" fill="#fef3c7" stroke="#a16207" stroke-width="1"/>
+    <text x="540" y="140" text-anchor="middle" font-size="10" font-weight="700" fill="#a16207">VOCÊ SABE E O MERCADO QUER</text>
+    <text x="540" y="152" text-anchor="middle" font-size="10" fill="#92400e">mas o público não paga</text>
+  </g>
+  <g>
+    <circle cx="430" cy="465" r="6" fill="#fef3c7" stroke="#a16207" stroke-width="1.5"/>
+    <text x="430" y="469" text-anchor="middle" font-size="9" font-weight="700" fill="#a16207">!</text>
+    <line x1="420" y1="465" x2="225" y2="465" stroke="#a16207" stroke-width="1" stroke-dasharray="3,3"/>
+    <rect x="30" y="448" width="195" height="32" rx="6" fill="#fef3c7" stroke="#a16207" stroke-width="1"/>
+    <text x="127" y="463" text-anchor="middle" font-size="10" font-weight="700" fill="#a16207">VOCÊ SABE E HÁ DINHEIRO</text>
+    <text x="127" y="475" text-anchor="middle" font-size="10" fill="#92400e">mas ninguém procura</text>
+  </g>
+  <g>
+    <circle cx="650" cy="465" r="6" fill="#fef3c7" stroke="#a16207" stroke-width="1.5"/>
+    <text x="650" y="469" text-anchor="middle" font-size="9" font-weight="700" fill="#a16207">!</text>
+    <line x1="660" y1="465" x2="855" y2="465" stroke="#a16207" stroke-width="1" stroke-dasharray="3,3"/>
+    <rect x="855" y="448" width="195" height="32" rx="6" fill="#fef3c7" stroke="#a16207" stroke-width="1"/>
+    <text x="952" y="463" text-anchor="middle" font-size="10" font-weight="700" fill="#a16207">DEMANDA E DINHEIRO EXISTEM</text>
+    <text x="952" y="475" text-anchor="middle" font-size="10" fill="#92400e">mas você não domina o tema</text>
+  </g>
+  <g>
+    <ellipse cx="540" cy="380" rx="58" ry="42" fill="url(#centerBadge)" filter="url(#cardSh3)"/>
+    <text x="540" y="375" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">NICHO</text>
+    <text x="540" y="395" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">VIÁVEL</text>
+    <text x="495" y="365" font-size="14" fill="#86efac">★</text>
+    <text x="585" y="365" font-size="14" fill="#86efac">★</text>
+  </g>
+  <g filter="url(#cardSh3)"><rect x="60" y="745" width="330" height="155" rx="12" fill="#ffffff"/></g>
+  <rect x="60" y="745" width="330" height="40" rx="12" fill="url(#card1Top)"/>
+  <rect x="60" y="775" width="330" height="10" fill="url(#card1Top)"/>
+  <text x="80" y="771" font-size="14" font-weight="700" fill="#ffffff">FILTRO 1 · DOMÍNIO OU PAIXÃO</text>
+  <text x="80" y="810" font-size="11" font-weight="700" fill="#1e40af" letter-spacing="1">PERGUNTA-CHAVE</text>
+  <text x="80" y="827" font-size="12" font-style="italic" fill="#1e293b">"Eu domino isso de verdade,</text>
+  <text x="80" y="843" font-size="12" font-style="italic" fill="#1e293b">ou tenho paixão genuína?"</text>
+  <text x="80" y="868" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">COMO VERIFICAR</text>
+  <text x="80" y="883" font-size="11" fill="#475569">• Você conseguiria gravar 20h sem pesquisar?</text>
+  <text x="80" y="897" font-size="11" fill="#475569">• Você fala disso espontaneamente nas conversas?</text>
+  <g filter="url(#cardSh3)"><rect x="410" y="745" width="330" height="155" rx="12" fill="#ffffff"/></g>
+  <rect x="410" y="745" width="330" height="40" rx="12" fill="url(#card2Top)"/>
+  <rect x="410" y="775" width="330" height="10" fill="url(#card2Top)"/>
+  <text x="430" y="771" font-size="14" font-weight="700" fill="#ffffff">FILTRO 2 · DEMANDA COMPROVADA</text>
+  <text x="430" y="810" font-size="11" font-weight="700" fill="#0f766e" letter-spacing="1">PERGUNTA-CHAVE</text>
+  <text x="430" y="827" font-size="12" font-style="italic" fill="#1e293b">"Há gente procurando ativamente</text>
+  <text x="430" y="843" font-size="12" font-style="italic" fill="#1e293b">por solução desse problema?"</text>
+  <text x="430" y="868" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">COMO VERIFICAR</text>
+  <text x="430" y="883" font-size="11" fill="#475569">• Google Trends estável ou crescente</text>
+  <text x="430" y="897" font-size="11" fill="#475569">• Comunidades ativas (grupos, fóruns) + concorrentes</text>
+  <g filter="url(#cardSh3)"><rect x="760" y="745" width="280" height="155" rx="12" fill="#ffffff"/></g>
+  <rect x="760" y="745" width="280" height="40" rx="12" fill="url(#card3Top)"/>
+  <rect x="760" y="775" width="280" height="10" fill="url(#card3Top)"/>
+  <text x="780" y="771" font-size="14" font-weight="700" fill="#ffffff">FILTRO 3 · PÚBLICO QUE PAGA</text>
+  <text x="780" y="810" font-size="11" font-weight="700" fill="#c2410c" letter-spacing="1">PERGUNTA-CHAVE</text>
+  <text x="780" y="827" font-size="12" font-style="italic" fill="#1e293b">"Esse público entende valor</text>
+  <text x="780" y="843" font-size="12" font-style="italic" fill="#1e293b">e tira o cartão da carteira?"</text>
+  <text x="780" y="868" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1">COMO VERIFICAR</text>
+  <text x="780" y="883" font-size="11" fill="#475569">• Concorrentes praticam ticket sólido</text>
+  <text x="780" y="897" font-size="11" fill="#475569">• Frequência alta de lançamentos no nicho</text>
+</svg>
