@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="tier1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
+    <linearGradient id="tier2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0d9488"/><stop offset="100%" stop-color="#14b8a6"/></linearGradient>
+    <linearGradient id="tier3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+    <linearGradient id="tier4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#9f1239"/><stop offset="100%" stop-color="#e11d48"/></linearGradient>
+    <linearGradient id="insightBg" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
+    <filter id="cardSh4" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="1200" height="820" fill="#f8fafc"/>
+  <rect x="60" y="35" width="220" height="22" rx="11" fill="#f1f5f9"/>
+  <text x="170" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="#64748b" letter-spacing="2">PRECIFICAÇÃO POR NICHO</text>
+  <text x="60" y="90" font-size="24" font-weight="700" fill="#0f172a">Quanto cobrar pelo seu curso: 4 tiers de ticket por nicho</text>
+  <text x="60" y="113" font-size="13" fill="#64748b">Faixas típicas de mercado em 2026 — encontre onde seu nicho se posiciona e calibre sua oferta</text>
+  <g filter="url(#cardSh4)"><rect x="60" y="150" width="265" height="520" rx="14" fill="#ffffff"/></g>
+  <rect x="60" y="150" width="265" height="100" rx="14" fill="url(#tier1)"/>
+  <rect x="60" y="220" width="265" height="30" fill="url(#tier1)"/>
+  <text x="80" y="180" font-size="11" font-weight="700" fill="#dbeafe" letter-spacing="2">TIER 1</text>
+  <text x="80" y="208" font-size="22" font-weight="700" fill="#ffffff">Acessível</text>
+  <text x="80" y="238" font-size="16" font-weight="700" fill="#ffffff">R$ 97 – R$ 497</text>
+  <text x="80" y="285" font-size="11" font-weight="700" fill="#1e40af" letter-spacing="1.5">NICHOS</text>
+  <g transform="translate(80, 295)" font-size="12" fill="#0f172a"><text y="15">• Hobbies criativos</text><text y="35">  (música, arte, escrita)</text><text y="55">• Idiomas (entrada)</text><text y="75">• Receitas e culinária</text><text y="95">• Templates e ferramentas</text><text y="115">• Microcursos pontuais</text></g>
+  <line x1="80" y1="445" x2="305" y2="445" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="80" y="470" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.5">PERFIL DE COMPRA</text>
+  <text x="80" y="490" font-size="11" fill="#475569">Compra por impulso</text><text x="80" y="507" font-size="11" fill="#475569">Conversão alta</text><text x="80" y="524" font-size="11" fill="#475569">Volume necessário</text>
+  <rect x="80" y="555" width="225" height="40" rx="8" fill="#eff6ff"/>
+  <text x="92" y="572" font-size="9" font-weight="700" fill="#1e40af" letter-spacing="1.5">FORMATO IDEAL</text>
+  <text x="92" y="588" font-size="11" fill="#1e3a8a">Curso curto, gravado, sem suporte</text>
+  <text x="80" y="625" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.5">META REALISTA</text>
+  <text x="80" y="645" font-size="13" font-weight="700" fill="#0f172a">100–500 alunos/mês</text>
+  <text x="80" y="660" font-size="11" fill="#64748b">para faturar com saúde</text>
+  <g filter="url(#cardSh4)"><rect x="345" y="150" width="265" height="520" rx="14" fill="#ffffff"/></g>
+  <rect x="345" y="150" width="265" height="100" rx="14" fill="url(#tier2)"/>
+  <rect x="345" y="220" width="265" height="30" fill="url(#tier2)"/>
+  <text x="365" y="180" font-size="11" font-weight="700" fill="#ccfbf1" letter-spacing="2">TIER 2</text>
+  <text x="365" y="208" font-size="22" font-weight="700" fill="#ffffff">Médio</text>
+  <text x="365" y="238" font-size="16" font-weight="700" fill="#ffffff">R$ 497 – R$ 1.997</text>
+  <text x="365" y="285" font-size="11" font-weight="700" fill="#0f766e" letter-spacing="1.5">NICHOS</text>
+  <g transform="translate(365, 295)" font-size="12" fill="#0f172a"><text y="15">• Produtividade e gestão</text><text y="35">  do tempo</text><text y="55">• Saúde mental e bem-estar</text><text y="75">• Parentalidade e relacionamentos</text><text y="95">• Idiomas (intermediário+)</text><text y="115">• Habilidades criativas pro</text></g>
+  <line x1="365" y1="445" x2="590" y2="445" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="365" y="470" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.5">PERFIL DE COMPRA</text>
+  <text x="365" y="490" font-size="11" fill="#475569">Compra com pesquisa</text><text x="365" y="507" font-size="11" fill="#475569">Considera 2-3 opções</text><text x="365" y="524" font-size="11" fill="#475569">Sweet spot inicial</text>
+  <rect x="365" y="555" width="225" height="40" rx="8" fill="#f0fdfa"/>
+  <text x="377" y="572" font-size="9" font-weight="700" fill="#0f766e" letter-spacing="1.5">FORMATO IDEAL</text>
+  <text x="377" y="588" font-size="11" fill="#115e59">Curso + comunidade básica</text>
+  <text x="365" y="625" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.5">META REALISTA</text>
+  <text x="365" y="645" font-size="13" font-weight="700" fill="#0f172a">30–100 alunos/mês</text>
+  <text x="365" y="660" font-size="11" fill="#64748b">para faturar 6 dígitos/ano</text>
+  <g filter="url(#cardSh4)"><rect x="630" y="150" width="265" height="520" rx="14" fill="#ffffff"/></g>
+  <rect x="630" y="150" width="265" height="100" rx="14" fill="url(#tier3)"/>
+  <rect x="630" y="220" width="265" height="30" fill="url(#tier3)"/>
+  <text x="650" y="180" font-size="11" font-weight="700" fill="#fef3c7" letter-spacing="2">TIER 3</text>
+  <text x="650" y="208" font-size="22" font-weight="700" fill="#ffffff">Premium</text>
+  <text x="650" y="238" font-size="16" font-weight="700" fill="#ffffff">R$ 1.997 – R$ 4.997</text>
+  <text x="650" y="285" font-size="11" font-weight="700" fill="#a16207" letter-spacing="1.5">NICHOS</text>
+  <g transform="translate(650, 295)" font-size="12" fill="#0f172a"><text y="15">• Marketing digital especializado</text><text y="35">• Finanças pessoais e investimentos</text><text y="55">• Tecnologia / programação</text><text y="75">• Desenvolvimento de carreira</text><text y="95">• Transição profissional</text><text y="115">• Vendas e copywriting</text></g>
+  <line x1="650" y1="445" x2="875" y2="445" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="650" y="470" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.5">PERFIL DE COMPRA</text>
+  <text x="650" y="490" font-size="11" fill="#475569">Compra como investimento</text><text x="650" y="507" font-size="11" fill="#475569">Espera ROI mensurável</text><text x="650" y="524" font-size="11" fill="#475569">Exige prova social</text>
+  <rect x="650" y="555" width="225" height="40" rx="8" fill="#fffbeb"/>
+  <text x="662" y="572" font-size="9" font-weight="700" fill="#a16207" letter-spacing="1.5">FORMATO IDEAL</text>
+  <text x="662" y="588" font-size="11" fill="#92400e">Curso + comunidade + lives</text>
+  <text x="650" y="625" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.5">META REALISTA</text>
+  <text x="650" y="645" font-size="13" font-weight="700" fill="#0f172a">10–40 alunos/mês</text>
+  <text x="650" y="660" font-size="11" fill="#64748b">já passa de 7 dígitos/ano</text>
+  <g filter="url(#cardSh4)"><rect x="915" y="150" width="225" height="520" rx="14" fill="#ffffff"/></g>
+  <rect x="915" y="150" width="225" height="100" rx="14" fill="url(#tier4)"/>
+  <rect x="915" y="220" width="225" height="30" fill="url(#tier4)"/>
+  <text x="935" y="180" font-size="11" font-weight="700" fill="#ffe4e6" letter-spacing="2">TIER 4</text>
+  <text x="935" y="208" font-size="22" font-weight="700" fill="#ffffff">Alto Ticket</text>
+  <text x="935" y="238" font-size="14" font-weight="700" fill="#ffffff">R$ 5.000 – R$ 15.000+</text>
+  <text x="935" y="285" font-size="11" font-weight="700" fill="#9f1239" letter-spacing="1.5">NICHOS</text>
+  <g transform="translate(935, 295)" font-size="12" fill="#0f172a"><text y="15">• IA aplicada (programas</text><text y="35">  profissionais)</text><text y="55">• B2B para profissionais</text><text y="75">  liberais (médicos,</text><text y="95">  advogados, dentistas)</text><text y="115">• Mentorias e imersões</text></g>
+  <line x1="935" y1="445" x2="1120" y2="445" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="935" y="470" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.5">PERFIL DE COMPRA</text>
+  <text x="935" y="490" font-size="11" fill="#475569">Decisão racional</text><text x="935" y="507" font-size="11" fill="#475569">Acompanhamento direto</text><text x="935" y="524" font-size="11" fill="#475569">Transformação tangível</text>
+  <rect x="935" y="555" width="185" height="40" rx="8" fill="#fff1f2"/>
+  <text x="947" y="572" font-size="9" font-weight="700" fill="#9f1239" letter-spacing="1.5">FORMATO IDEAL</text>
+  <text x="947" y="588" font-size="11" fill="#9f1239">Mentoria + curso + grupo</text>
+  <text x="935" y="625" font-size="11" font-weight="700" fill="#64748b" letter-spacing="1.5">META REALISTA</text>
+  <text x="935" y="645" font-size="13" font-weight="700" fill="#0f172a">3–15 alunos/mês</text>
+  <text x="935" y="660" font-size="11" fill="#64748b">com mentoria acoplada</text>
+  <g filter="url(#cardSh4)"><rect x="60" y="700" width="1080" height="80" rx="12" fill="url(#insightBg)"/></g>
+  <text x="80" y="730" font-size="10" font-weight="700" fill="#94a3b8" letter-spacing="2">REGRA DE OURO</text>
+  <text x="80" y="753" font-size="14" font-weight="700" fill="#ffffff">Preço alto não vem do nicho — vem da transformação que você prova entregar.</text>
+  <text x="80" y="772" font-size="12" fill="#cbd5e1">Hobbies em Tier 4 existem (R$ 8k para curso de violão premium); finanças em Tier 1 existem (R$ 47 para microcurso). Posicionamento > categoria.</text>
+  <text x="1140" y="810" text-anchor="end" font-size="11" font-weight="600" fill="#94a3b8">Andromeda LMS · Faixas típicas de mercado em 2026</text>
+</svg>
