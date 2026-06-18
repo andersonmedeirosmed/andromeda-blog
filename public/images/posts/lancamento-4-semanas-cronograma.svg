@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 640" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="w1" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
+    <linearGradient id="w2" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#0d9488"/><stop offset="100%" stop-color="#14b8a6"/></linearGradient>
+    <linearGradient id="w3" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fbbf24"/></linearGradient>
+    <linearGradient id="w4" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#e11d48"/><stop offset="100%" stop-color="#fb7185"/></linearGradient>
+    <linearGradient id="salesCurve" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15"/><stop offset="50%" stop-color="#14b8a6" stop-opacity="0.25"/><stop offset="80%" stop-color="#f59e0b" stop-opacity="0.4"/><stop offset="100%" stop-color="#e11d48" stop-opacity="0.7"/></linearGradient>
+    <filter id="cardSh2" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.12"/></filter>
+  </defs>
+  <rect width="1300" height="640" fill="#fefefe"/>
+  <rect x="60" y="35" width="220" height="22" rx="11" fill="#f1f5f9"/>
+  <text x="170" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="#64748b" letter-spacing="2">CRONOGRAMA DE PRÉ-VENDA</text>
+  <text x="60" y="90" font-size="24" font-weight="700" fill="#0f172a">Lançamento em 4 semanas: o passo a passo dia a dia</text>
+  <text x="60" y="113" font-size="13" fill="#64748b">Sequência que transforma uma lista fria em alunos pagantes — sem queimar audiência</text>
+  <g transform="translate(60, 140)">
+    <rect x="0" y="0" width="600" height="22" rx="11" fill="#dbeafe"/>
+    <text x="300" y="15" text-anchor="middle" font-size="10" font-weight="700" fill="#1e40af" letter-spacing="2">FASE 1 · PRÉ-LANÇAMENTO (sem vender)</text>
+    <rect x="620" y="0" width="600" height="22" rx="11" fill="#fef3c7"/>
+    <text x="920" y="15" text-anchor="middle" font-size="10" font-weight="700" fill="#a16207" letter-spacing="2">FASE 2 · LANÇAMENTO (oferta no ar)</text>
+  </g>
+  <g filter="url(#cardSh2)"><rect x="60" y="185" width="290" height="290" rx="14" fill="#ffffff"/></g>
+  <rect x="60" y="185" width="290" height="60" rx="14" fill="url(#w1)"/>
+  <rect x="60" y="225" width="290" height="20" fill="url(#w1)"/>
+  <text x="80" y="215" font-size="11" font-weight="700" fill="#dbeafe" letter-spacing="2">SEMANA 1</text>
+  <text x="80" y="237" font-size="18" font-weight="700" fill="#ffffff">Pré-aquecimento</text>
+  <text x="80" y="275" font-size="10" font-weight="700" fill="#3b82f6" letter-spacing="1.5">OBJETIVO</text>
+  <text x="80" y="293" font-size="12" font-weight="600" fill="#0f172a">Aquecer audiência sobre</text>
+  <text x="80" y="309" font-size="12" font-weight="600" fill="#0f172a">o problema, sem vender</text>
+  <text x="80" y="335" font-size="10" font-weight="700" fill="#64748b" letter-spacing="1.5">AÇÕES</text>
+  <g transform="translate(80, 345)" font-size="11" fill="#475569">
+    <text y="13">• Fale do problema 3–4x</text>
+    <text y="30">• Compartilhe casos reais</text>
+    <text y="47">• Pesquisa rápida com 5 leads</text>
+    <text y="64">• Comece a anunciar a data</text>
+    <text y="81">• Crie a landing de captura</text>
+  </g>
+  <rect x="80" y="441" width="250" height="24" rx="12" fill="#dbeafe"/>
+  <text x="205" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#1e40af">→ lista de espera engajada</text>
+  <g filter="url(#cardSh2)"><rect x="370" y="185" width="290" height="290" rx="14" fill="#ffffff"/></g>
+  <rect x="370" y="185" width="290" height="60" rx="14" fill="url(#w2)"/>
+  <rect x="370" y="225" width="290" height="20" fill="url(#w2)"/>
+  <text x="390" y="215" font-size="11" font-weight="700" fill="#ccfbf1" letter-spacing="2">SEMANA 2</text>
+  <text x="390" y="237" font-size="18" font-weight="700" fill="#ffffff">Abertura da oferta</text>
+  <text x="390" y="275" font-size="10" font-weight="700" fill="#0d9488" letter-spacing="1.5">OBJETIVO</text>
+  <text x="390" y="293" font-size="12" font-weight="600" fill="#0f172a">Lançar página de vendas</text>
+  <text x="390" y="309" font-size="12" font-weight="600" fill="#0f172a">com oferta de pré-venda</text>
+  <text x="390" y="335" font-size="10" font-weight="700" fill="#64748b" letter-spacing="1.5">AÇÕES</text>
+  <g transform="translate(390, 345)" font-size="11" fill="#475569">
+    <text y="13">• Publique a página de vendas</text>
+    <text y="30">• Email de abertura para a lista</text>
+    <text y="47">• Oferta especial (–30% ou bônus)</text>
+    <text y="64">• Conteúdo diário nas redes</text>
+    <text y="81">• Convide 2–3 parceiros</text>
+  </g>
+  <rect x="390" y="441" width="250" height="24" rx="12" fill="#ccfbf1"/>
+  <text x="515" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#0f766e">→ primeiras vendas (5 a 20%)</text>
+  <g filter="url(#cardSh2)"><rect x="680" y="185" width="290" height="290" rx="14" fill="#ffffff"/></g>
+  <rect x="680" y="185" width="290" height="60" rx="14" fill="url(#w3)"/>
+  <rect x="680" y="225" width="290" height="20" fill="url(#w3)"/>
+  <text x="700" y="215" font-size="11" font-weight="700" fill="#fef3c7" letter-spacing="2">SEMANA 3</text>
+  <text x="700" y="237" font-size="18" font-weight="700" fill="#ffffff">Conteúdo + prova social</text>
+  <text x="700" y="275" font-size="10" font-weight="700" fill="#a16207" letter-spacing="1.5">OBJETIVO</text>
+  <text x="700" y="293" font-size="12" font-weight="600" fill="#0f172a">Aprofundar valor percebido</text>
+  <text x="700" y="309" font-size="12" font-weight="600" fill="#0f172a">e quebrar objeções</text>
+  <text x="700" y="335" font-size="10" font-weight="700" fill="#64748b" letter-spacing="1.5">AÇÕES</text>
+  <g transform="translate(700, 345)" font-size="11" fill="#475569">
+    <text y="13">• 3–5 conteúdos profundos</text>
+    <text y="30">• Live ou webinar gratuito</text>
+    <text y="47">• Depoimentos dos primeiros</text>
+    <text y="64">• Email de objeções (FAQ)</text>
+    <text y="81">• Aceleração do tráfego pago</text>
+  </g>
+  <rect x="700" y="441" width="250" height="24" rx="12" fill="#fef3c7"/>
+  <text x="825" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#a16207">→ pico de consideração</text>
+  <g filter="url(#cardSh2)"><rect x="990" y="185" width="250" height="290" rx="14" fill="#ffffff"/></g>
+  <rect x="990" y="185" width="250" height="60" rx="14" fill="url(#w4)"/>
+  <rect x="990" y="225" width="250" height="20" fill="url(#w4)"/>
+  <text x="1010" y="215" font-size="11" font-weight="700" fill="#ffe4e6" letter-spacing="2">SEMANA 4</text>
+  <text x="1010" y="237" font-size="18" font-weight="700" fill="#ffffff">Urgência e fechamento</text>
+  <text x="1010" y="275" font-size="10" font-weight="700" fill="#e11d48" letter-spacing="1.5">OBJETIVO</text>
+  <text x="1010" y="293" font-size="12" font-weight="600" fill="#0f172a">Maximizar conversão com</text>
+  <text x="1010" y="309" font-size="12" font-weight="600" fill="#0f172a">gatilhos reais</text>
+  <text x="1010" y="335" font-size="10" font-weight="700" fill="#64748b" letter-spacing="1.5">AÇÕES</text>
+  <g transform="translate(1010, 345)" font-size="11" fill="#475569">
+    <text y="13">• Bônus exclusivo até X data</text>
+    <text y="30">• Vagas limitadas (se real)</text>
+    <text y="47">• Lembrete diário nos últimos 3 dias</text>
+    <text y="64">• Live de Q&amp;A</text>
+    <text y="81">• Encerramento + tabela maior</text>
+  </g>
+  <rect x="1010" y="441" width="210" height="24" rx="12" fill="#ffe4e6"/>
+  <text x="1115" y="457" text-anchor="middle" font-size="11" font-weight="600" fill="#9f1239">→ 60%+ das vendas aqui</text>
+  <text x="60" y="510" font-size="11" font-weight="700" fill="#475569" letter-spacing="1.5">DISTRIBUIÇÃO TÍPICA DAS VENDAS AO LONGO DO LANÇAMENTO</text>
+  <rect x="60" y="525" width="1180" height="80" rx="6" fill="#f8fafc"/>
+  <path d="M 60 595 Q 200 590 350 580 Q 500 565 660 540 Q 800 520 950 495 Q 1100 470 1240 530 L 1240 605 L 60 605 Z" fill="url(#salesCurve)"/>
+  <path d="M 60 595 Q 200 590 350 580 Q 500 565 660 540 Q 800 520 950 495 Q 1100 470 1240 530" stroke="#e11d48" stroke-width="2" fill="none"/>
+  <g font-size="10" fill="#64748b" font-weight="600" text-anchor="middle">
+    <text x="205" y="600">Semana 1</text>
+    <text x="515" y="600">Semana 2</text>
+    <text x="825" y="600">Semana 3</text>
+    <text x="1115" y="600">Semana 4</text>
+  </g>
+  <line x1="1130" y1="465" x2="1130" y2="485" stroke="#e11d48" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="1130" y="461" text-anchor="middle" font-size="10" font-weight="700" fill="#e11d48">PICO nos últimos 3 dias</text>
+  <text x="60" y="630" font-size="11" fill="#94a3b8">A maioria dos lançamentos concentra <tspan font-weight="700" fill="#475569">60 a 75% das vendas na semana final</tspan> — planeje sua energia para esse momento</text>
+  <text x="1240" y="630" text-anchor="end" font-size="11" font-weight="600" fill="#94a3b8">Andromeda LMS</text>
+</svg>
