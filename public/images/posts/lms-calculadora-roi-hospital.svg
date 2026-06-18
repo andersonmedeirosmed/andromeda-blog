@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 880" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="tradGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+    <linearGradient id="lmsGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <linearGradient id="resultGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="paybackGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrowDown" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M0,0 L10,0 L5,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="880" fill="#f8fafc"/>
+  <text x="500" y="50" text-anchor="middle" font-size="24" font-weight="700" fill="#0f172a">Calculadora de ROI: capacitação do corpo clínico</text>
+  <text x="500" y="78" text-anchor="middle" font-size="14" fill="#64748b">Passo a passo do cenário composto — substitua pelos seus próprios números</text>
+  <text x="60" y="125" font-size="11" font-weight="700" fill="#475569" letter-spacing="1.5">PASSO 1 · PREMISSAS DO SEU HOSPITAL</text>
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="140" width="280" height="90" rx="10" fill="#ffffff"/>
+  </g>
+  <text x="80" y="170" font-size="11" fill="#64748b">Porte do hospital</text>
+  <text x="80" y="200" font-size="22" font-weight="700" fill="#0f172a">200 leitos</text>
+  <text x="80" y="220" font-size="11" fill="#94a3b8" font-style="italic">hospital de médio porte</text>
+  <g filter="url(#cardShadow)">
+    <rect x="360" y="140" width="280" height="90" rx="10" fill="#ffffff"/>
+  </g>
+  <text x="380" y="170" font-size="11" fill="#64748b">Contratações clínicas/ano</text>
+  <text x="380" y="200" font-size="22" font-weight="700" fill="#0f172a">40 profissionais</text>
+  <text x="380" y="220" font-size="11" fill="#94a3b8" font-style="italic">médicos, enfermeiros, técnicos</text>
+  <g filter="url(#cardShadow)">
+    <rect x="660" y="140" width="280" height="90" rx="10" fill="#ffffff"/>
+  </g>
+  <text x="680" y="170" font-size="11" fill="#64748b">Custo total mensal médio</text>
+  <text x="680" y="200" font-size="22" font-weight="700" fill="#0f172a">R$ 12.000</text>
+  <text x="680" y="220" font-size="11" fill="#94a3b8" font-style="italic">salário + encargos + supervisão</text>
+  <line x1="500" y1="250" x2="500" y2="278" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <text x="60" y="310" font-size="11" font-weight="700" fill="#475569" letter-spacing="1.5">PASSO 2 · CUSTO DA JANELA DE CAPACITAÇÃO</text>
+  <rect x="60" y="325" width="440" height="35" rx="6" fill="#ea580c"/>
+  <text x="280" y="348" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">MODELO TRADICIONAL</text>
+  <rect x="510" y="325" width="430" height="35" rx="6" fill="#0d9488"/>
+  <text x="725" y="348" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">COM PLATAFORMA LMS</text>
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="370" width="440" height="60" rx="6" fill="url(#tradGrad2)"/>
+  </g>
+  <text x="80" y="395" font-size="11" fill="#9a3412" font-weight="600">Tempo até autonomia plena</text>
+  <text x="80" y="420" font-size="22" font-weight="700" fill="#9a3412">60 dias</text>
+  <g filter="url(#cardShadow)">
+    <rect x="510" y="370" width="430" height="60" rx="6" fill="url(#lmsGrad2)"/>
+  </g>
+  <text x="530" y="395" font-size="11" fill="#115e59" font-weight="600">Tempo até autonomia plena</text>
+  <text x="530" y="420" font-size="22" font-weight="700" fill="#115e59">35 dias</text>
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="440" width="440" height="60" rx="6" fill="url(#tradGrad2)"/>
+  </g>
+  <text x="80" y="465" font-size="11" fill="#9a3412" font-weight="600">Custo por profissional (R$ 12k × 2 meses)</text>
+  <text x="80" y="490" font-size="22" font-weight="700" fill="#9a3412">R$ 24.000</text>
+  <g filter="url(#cardShadow)">
+    <rect x="510" y="440" width="430" height="60" rx="6" fill="url(#lmsGrad2)"/>
+  </g>
+  <text x="530" y="465" font-size="11" fill="#115e59" font-weight="600">Custo por profissional (R$ 12k × 1,17 mês)</text>
+  <text x="530" y="490" font-size="22" font-weight="700" fill="#115e59">R$ 14.000</text>
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="510" width="440" height="70" rx="6" fill="#fdba74"/>
+  </g>
+  <text x="80" y="535" font-size="11" fill="#7c2d12" font-weight="600">CUSTO TOTAL ANUAL (× 40 contratações)</text>
+  <text x="80" y="565" font-size="28" font-weight="700" fill="#7c2d12">R$ 960.000</text>
+  <g filter="url(#cardShadow)">
+    <rect x="510" y="510" width="430" height="70" rx="6" fill="#5eead4"/>
+  </g>
+  <text x="530" y="535" font-size="11" fill="#115e59" font-weight="600">CUSTO TOTAL ANUAL (× 40 contratações)</text>
+  <text x="530" y="565" font-size="28" font-weight="700" fill="#115e59">R$ 560.000</text>
+  <line x1="500" y1="595" x2="500" y2="623" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowDown)"/>
+  <text x="60" y="655" font-size="11" font-weight="700" fill="#475569" letter-spacing="1.5">PASSO 3 · RESULTADO LÍQUIDO</text>
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="670" width="880" height="160" rx="14" fill="url(#resultGrad)"/>
+  </g>
+  <text x="90" y="710" font-size="11" font-weight="600" fill="#86efac" letter-spacing="1">GANHO BRUTO ANUAL</text>
+  <text x="90" y="745" font-size="14" fill="#d1fae5">R$ 960.000  −  R$ 560.000  =</text>
+  <text x="90" y="790" font-size="40" font-weight="700" fill="#ffffff">R$ 400.000</text>
+  <line x1="475" y1="690" x2="475" y2="810" stroke="#10b981" stroke-width="1" opacity="0.4"/>
+  <text x="505" y="710" font-size="11" font-weight="600" fill="#86efac" letter-spacing="1">INVESTIMENTO ANUAL EM LMS</text>
+  <text x="505" y="740" font-size="20" font-weight="700" fill="#ffffff">– R$ 100.000</text>
+  <text x="505" y="758" font-size="11" fill="#a7f3d0" font-style="italic">licenças + implantação + conteúdo</text>
+  <text x="505" y="790" font-size="11" font-weight="600" fill="#86efac" letter-spacing="1">GANHO LÍQUIDO ANO 1</text>
+  <text x="505" y="815" font-size="28" font-weight="700" fill="#ffffff">R$ 300.000+</text>
+  <g filter="url(#cardShadow)">
+    <rect x="780" y="700" width="140" height="50" rx="25" fill="url(#paybackGrad)"/>
+  </g>
+  <text x="850" y="722" text-anchor="middle" font-size="9" font-weight="700" fill="#ffffff" letter-spacing="1">PAYBACK</text>
+  <text x="850" y="742" text-anchor="middle" font-size="18" font-weight="700" fill="#ffffff">&lt; 6 meses</text>
+  <text x="500" y="860" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">Andromeda LMS · Calculadora de ROI para hospitais</text>
+</svg>
