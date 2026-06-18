@@ -19,13 +19,13 @@ export default function Header() {
             Artigos
           </Link>
           <Link href="/categoria/educacao" className="hover:text-pink-600 transition-colors">
-            Educacao
+            Educação
           </Link>
           <Link href="/categoria/tecnologia" className="hover:text-pink-600 transition-colors">
             Tecnologia
           </Link>
           <Link href="/categoria/negocios" className="hover:text-pink-600 transition-colors">
-            Negocios
+            Negócios
           </Link>
         </nav>
 
@@ -35,7 +35,7 @@ export default function Header() {
           rel="noopener noreferrer"
           className="text-sm bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-4 py-2 rounded-lg font-medium transition-all shadow-md shadow-pink-500/20 hover:shadow-lg hover:shadow-pink-500/30"
         >
-          Criar escola gratis
+          Criar escola grátis
         </a>
       </div>
     </header>

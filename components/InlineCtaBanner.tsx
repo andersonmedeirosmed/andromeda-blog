@@ -14,7 +14,7 @@ export default function InlineCtaBanner() {
             Crie sua escola online com a Andromeda LMS
           </p>
           <p className="text-white/70 text-sm mt-1">
-            Gratis para comecar. Sua marca, seus alunos, suas regras.
+            Grátis para começar. Sua marca, seus alunos, suas regras.
           </p>
         </div>
         <a
@@ -23,7 +23,7 @@ export default function InlineCtaBanner() {
           rel="noopener noreferrer"
           className="shrink-0 bg-white text-purple-700 font-semibold px-6 py-2.5 rounded-xl hover:bg-purple-50 transition-colors shadow-lg shadow-purple-900/20 text-sm whitespace-nowrap"
         >
-          Comecar gratis
+          Começar grátis
         </a>
       </div>
     </div>

@@ -245,7 +245,7 @@ export default async function ArticlePage({ params }: Props) {
                   Crie sua escola online com a Andromeda
                 </h2>
                 <p className="text-purple-200/80 mb-5 text-sm max-w-md mx-auto">
-                  Gratis para comecar. Sem cartao. Sua marca, seus alunos, suas regras.
+                  Grátis para começar. Sem cartão. Sua marca, seus alunos, suas regras.
                 </p>
                 <a
                   href="https://www.andromedalms.com/criar-escola"
@@ -253,7 +253,7 @@ export default async function ArticlePage({ params }: Props) {
                   rel="noopener noreferrer"
                   className="inline-block bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold px-8 py-3 rounded-xl hover:from-pink-600 hover:to-purple-700 transition-all shadow-lg shadow-pink-500/20"
                 >
-                  Comecar agora gratis
+                  Começar agora grátis
                 </a>
               </div>
             </div>

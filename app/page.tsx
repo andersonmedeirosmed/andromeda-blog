@@ -39,11 +39,11 @@ export default function HomePage() {
             Blog Andromeda LMS
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
-            Tudo sobre <span className="text-gradient-andromeda">educacao online</span>
+            Tudo sobre <span className="text-gradient-andromeda">educação online</span>
             <br className="hidden sm:block" /> para escolas e professores
           </h1>
           <p className="text-purple-200/80 text-base sm:text-lg max-w-2xl mx-auto mb-8 leading-relaxed">
-            Estrategias, tecnologia e tendencias para quem quer criar, vender e escalar cursos online com qualidade.
+            Estratégias, tecnologia e tendências para quem quer criar, vender e escalar cursos online com qualidade.
           </p>
           <div className="flex items-center justify-center gap-3">
             <a
@@ -58,7 +58,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-gradient-to-r from-pink-500 to-purple-600 text-white font-semibold px-6 py-3 rounded-xl hover:from-pink-600 hover:to-purple-700 transition-all shadow-lg shadow-pink-500/20 text-sm"
             >
-              Criar escola gratis
+              Criar escola grátis
             </a>
           </div>
         </div>
@@ -151,7 +151,7 @@ export default function HomePage() {
               Pronto para criar sua escola online?
             </h2>
             <p className="text-white/80 mb-6 max-w-md mx-auto text-sm sm:text-base">
-              Comece gratis, sem cartao de credito. Configure em menos de 10 minutos.
+              Comece grátis, sem cartão de crédito. Configure em menos de 10 minutos.
             </p>
             <a
               href="https://www.andromedalms.com/criar-escola"
@@ -159,7 +159,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="inline-block bg-white text-purple-700 font-semibold px-8 py-3 rounded-xl hover:bg-purple-50 transition-colors shadow-lg shadow-purple-900/20 text-sm sm:text-base"
             >
-              Criar escola gratis
+              Criar escola grátis
             </a>
           </div>
         </div>
